@@ -1,0 +1,81 @@
+.player {
+  width: 300px;
+  height: 550px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  position: relative;
+}
+
+.player img {
+  width: 286px;
+  height: 286px;
+  border-radius: 8px;
+  margin: 7px;
+}
+
+.player-info {
+  margin: 0 14px;
+}
+
+.name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.btn-cart {
+  width: 100%;
+  background: rgb(189, 177, 153);
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  font-size: larger;
+}
+
+.btn-cart:hover {
+  background: orange;
+}
+
+.player {
+  width: 300px;
+  height: 550px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  position: relative;
+}
+
+.player img {
+  width: 286px;
+  height: 286px;
+  border-radius: 8px;
+  margin: 7px;
+}
+
+.player-info {
+  margin: 0 14px;
+}
+
+.name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.btn-cart {
+  width: 100%;
+  background: rgb(189, 177, 153);
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  font-size: larger;
+}
+
+.btn-cart:hover {
+  background: orange;
+}
