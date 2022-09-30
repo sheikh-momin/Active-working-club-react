@@ -1,0 +1,77 @@
+.info-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-color: rgb(199, 205, 210);
+}
+
+.players-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+
+  padding: 40px;
+  background-color: rgb(245, 241, 235);
+
+}
+
+.cart-container {
+  background-color: bisque;
+
+}
+
+@media screen and (min-width:577px) and (max-width:1100px) {
+  .info-container {
+
+    grid-template-columns: 3fr 2fr;
+
+
+  }
+
+  .players-container {
+
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+
+}
+
+@media screen and (max-width:576px) {
+  .info-container {
+
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 4fr;
+
+  }
+
+  .players-container {
+    margin: 0;
+    padding: 0;
+
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center
+  }
+
+
+
+}
+
+.logo-header {
+  margin: 10px 40px;
+  display: flex;
+  gap: 10px;
+  color: rgb(2, 126, 221);
+}
+
+.logo-header img {
+  width: 80px;
+  border-radius: 50%;
+
+}
+
+.questions {
+  margin-left: 40px;
+  padding-top: 10px;
+}
